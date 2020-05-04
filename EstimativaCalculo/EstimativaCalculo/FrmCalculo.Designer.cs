@@ -56,6 +56,14 @@
             this.lbVlrFaixa2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.lbVlrFaixa1 = new System.Windows.Forms.Label();
+            this.lbMedidaFaixa6 = new System.Windows.Forms.Label();
+            this.lbFaixa6 = new System.Windows.Forms.Label();
+            this.lbVlrFaixa6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.lbMedidaFaixa7 = new System.Windows.Forms.Label();
+            this.lbFaixa7 = new System.Windows.Forms.Label();
+            this.lbVlrFaixa7 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.gbFaixas.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -77,8 +85,8 @@
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCalcular.Location = new System.Drawing.Point(197, 226);
+            this.btnCalcular.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCalcular.Location = new System.Drawing.Point(197, 18);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(75, 23);
             this.btnCalcular.TabIndex = 2;
@@ -196,6 +204,10 @@
             // 
             // gbFaixas
             // 
+            this.gbFaixas.Controls.Add(this.lbMedidaFaixa7);
+            this.gbFaixas.Controls.Add(this.lbFaixa7);
+            this.gbFaixas.Controls.Add(this.lbMedidaFaixa6);
+            this.gbFaixas.Controls.Add(this.lbFaixa6);
             this.gbFaixas.Controls.Add(this.lbFaixa1);
             this.gbFaixas.Controls.Add(this.lbMedidaFaixa5);
             this.gbFaixas.Controls.Add(this.lbFaixa2);
@@ -208,13 +220,17 @@
             this.gbFaixas.Controls.Add(this.lbMedidaFaixa1);
             this.gbFaixas.Location = new System.Drawing.Point(16, 120);
             this.gbFaixas.Name = "gbFaixas";
-            this.gbFaixas.Size = new System.Drawing.Size(118, 110);
+            this.gbFaixas.Size = new System.Drawing.Size(118, 146);
             this.gbFaixas.TabIndex = 15;
             this.gbFaixas.TabStop = false;
             this.gbFaixas.Text = "Consumo por Faixa";
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lbVlrFaixa7);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.lbVlrFaixa6);
+            this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.lbVlrFaixa5);
             this.groupBox1.Controls.Add(this.label3);
@@ -225,9 +241,9 @@
             this.groupBox1.Controls.Add(this.lbVlrFaixa2);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.lbVlrFaixa1);
-            this.groupBox1.Location = new System.Drawing.Point(154, 107);
+            this.groupBox1.Location = new System.Drawing.Point(154, 120);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(118, 110);
+            this.groupBox1.Size = new System.Drawing.Size(118, 146);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Valor por Faixa";
@@ -322,11 +338,83 @@
             this.lbVlrFaixa1.TabIndex = 10;
             this.lbVlrFaixa1.Text = "-";
             // 
+            // lbMedidaFaixa6
+            // 
+            this.lbMedidaFaixa6.AutoSize = true;
+            this.lbMedidaFaixa6.Location = new System.Drawing.Point(56, 100);
+            this.lbMedidaFaixa6.Name = "lbMedidaFaixa6";
+            this.lbMedidaFaixa6.Size = new System.Drawing.Size(10, 13);
+            this.lbMedidaFaixa6.TabIndex = 16;
+            this.lbMedidaFaixa6.Text = "-";
+            // 
+            // lbFaixa6
+            // 
+            this.lbFaixa6.AutoSize = true;
+            this.lbFaixa6.Location = new System.Drawing.Point(6, 100);
+            this.lbFaixa6.Name = "lbFaixa6";
+            this.lbFaixa6.Size = new System.Drawing.Size(44, 13);
+            this.lbFaixa6.TabIndex = 15;
+            this.lbFaixa6.Text = "Faixa 6:";
+            // 
+            // lbVlrFaixa6
+            // 
+            this.lbVlrFaixa6.AutoSize = true;
+            this.lbVlrFaixa6.Location = new System.Drawing.Point(56, 100);
+            this.lbVlrFaixa6.Name = "lbVlrFaixa6";
+            this.lbVlrFaixa6.Size = new System.Drawing.Size(10, 13);
+            this.lbVlrFaixa6.TabIndex = 16;
+            this.lbVlrFaixa6.Text = "-";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 100);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(44, 13);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "Faixa 6:";
+            // 
+            // lbMedidaFaixa7
+            // 
+            this.lbMedidaFaixa7.AutoSize = true;
+            this.lbMedidaFaixa7.Location = new System.Drawing.Point(56, 116);
+            this.lbMedidaFaixa7.Name = "lbMedidaFaixa7";
+            this.lbMedidaFaixa7.Size = new System.Drawing.Size(10, 13);
+            this.lbMedidaFaixa7.TabIndex = 18;
+            this.lbMedidaFaixa7.Text = "-";
+            // 
+            // lbFaixa7
+            // 
+            this.lbFaixa7.AutoSize = true;
+            this.lbFaixa7.Location = new System.Drawing.Point(6, 116);
+            this.lbFaixa7.Name = "lbFaixa7";
+            this.lbFaixa7.Size = new System.Drawing.Size(44, 13);
+            this.lbFaixa7.TabIndex = 17;
+            this.lbFaixa7.Text = "Faixa 7:";
+            // 
+            // lbVlrFaixa7
+            // 
+            this.lbVlrFaixa7.AutoSize = true;
+            this.lbVlrFaixa7.Location = new System.Drawing.Point(56, 116);
+            this.lbVlrFaixa7.Name = "lbVlrFaixa7";
+            this.lbVlrFaixa7.Size = new System.Drawing.Size(10, 13);
+            this.lbVlrFaixa7.TabIndex = 18;
+            this.lbVlrFaixa7.Text = "-";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(6, 116);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(44, 13);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "Faixa 7:";
+            // 
             // frmCalculo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(284, 289);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbFaixas);
             this.Controls.Add(this.lbVlrConsumoMensal);
@@ -336,9 +424,9 @@
             this.Controls.Add(this.txtConsumoMensal);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(300, 300);
+            this.MaximumSize = new System.Drawing.Size(300, 328);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(300, 300);
+            this.MinimumSize = new System.Drawing.Size(300, 328);
             this.Name = "frmCalculo";
             this.Text = "Calculadora - Valor Estimado";
             this.Click += new System.EventHandler(this.CalcularVlrFaixas);
@@ -380,6 +468,14 @@
         private System.Windows.Forms.Label lbVlrFaixa2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lbVlrFaixa1;
+        private System.Windows.Forms.Label lbMedidaFaixa6;
+        private System.Windows.Forms.Label lbFaixa6;
+        private System.Windows.Forms.Label lbVlrFaixa6;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lbMedidaFaixa7;
+        private System.Windows.Forms.Label lbFaixa7;
+        private System.Windows.Forms.Label lbVlrFaixa7;
+        private System.Windows.Forms.Label label10;
     }
 }
 
